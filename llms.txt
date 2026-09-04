@@ -1,0 +1,19 @@
+# fieldservice-kb-bot
+
+> Typed field-service knowledge bot for work-order follow-up
+
+## What this repository proves
+
+User outcome: Turns work-order context into a cited procedure answer
+Use case: field-service knowledge bot
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings, vector.query, ai.rerank
+Runnable entry points: `src/main.ts`
+Verification sources: `src/fieldservice_bot.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

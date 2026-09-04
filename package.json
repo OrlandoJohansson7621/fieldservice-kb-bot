@@ -1,0 +1,1 @@
+{"name":"fieldservice-kb-bot","version":"1.0.0","type":"module","scripts":{"start":"tsx src/main.ts","test":"tsx src/fieldservice_bot.test.ts","typecheck":"tsc --noEmit"},"dependencies":{"openai":"^4.80.0","zod":"^3.24.1","tsx":"^4.19.2"},"devDependencies":{"typescript":"^5.7.2"}}
